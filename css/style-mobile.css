@@ -20,6 +20,13 @@
 	}
 
 
+#bg{
+	display: none;
+}
+
+.particle-network-animation {
+    height: 54vh;
+}
 	/* List */
 
 		ul
