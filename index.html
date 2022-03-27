@@ -1,14 +1,21 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 
 <html lang="pt-br">
 	<head>
-		<!-- Basic -->
     <title>Portfolio</title>
     <meta charset="utf-8">
     <meta name="keywords" content="portfolio">
-
-		<!-- Stylesheet -->
-    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.scrolly.min.js"></script>
+    <script src="js/jquery.scrollzer.min.js"></script>
+    <script src="js/skeleton.min.js"></script>
+    <script src="js/skeleton-layers.min.js"></script>
+    <script src="js/init.js"></script>
+    <noscript>
+        <link rel="stylesheet" href="css/skel.css" />
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/style-wide.css" />
+    </noscript>
 </head>
 
 <body>
@@ -29,8 +36,8 @@
             <nav id="nav">
                 <ul>
                     <li><a href="#top" id="top-link" class="skel-layers-ignoreHref"><span class="icon fa-home">Intro</span></a></li>
-                    <li><a href="#portfolio" id="portfolio-link" class="skel-layers-ignoreHref"><span class="icon fa-th">Projetos</span></a></li>
-                    <li><a href="#about" id="about-link" class="skel-layers-ignoreHref"><span class="icon fa-user">Sobre mim</span></a></li>
+                    <li><a href="#portfolio" id="portfolio-link" class="skel-layers-ignoreHref"><span class="icon fa-th">Projects</span></a></li>
+                    <li><a href="#about" id="about-link" class="skel-layers-ignoreHref"><span class="icon fa-user">About me</span></a></li>
                 </ul>
             </nav>
         </div>
@@ -39,10 +46,10 @@
 
             <!-- Social Icons -->
             <ul class="icons">
-                <li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-                <li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-                <li><a href="#" class="icon fa-github"><span class="label">Github</span></a></li>
-                <li><a href="#" class="icon fa-codepen"><span class="label">Codepen</span></a></li>
+                <li><a href="https://www.instagram.com/daniel_mello69/" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+                <li><a href="https://www.facebook.com/profile.php?id=100006313860836" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+                <li><a href="https://github.com/Programador-jr" class="icon fa-github"><span class="label">Github</span></a></li>
+                <li><a href="https://codepen.io/KingKiller" class="icon fa-codepen"><span class="label">Codepen</span></a></li>
             </ul>
         </div>
     </div>
@@ -52,16 +59,17 @@
 
         <!-- Intro -->
         <section id="top" class="one dark cover">
+            <div class='particle-network-animation'>
+            </div>
             <div class="container">
-
                 <header>
-                    <h2 class="alt">Bem vindo ao meu portfolio</h2>
-                    <p>Me aventurando no mundo da programação desde 2020</p>
+                    <h2 class="alt">Welcome to my Portfolio</h2>
+                    <p>Venturing into the world of programming since 2019</p>
                 </header>
 
-                <footer>
-                    <a href="#portfolio" class="button scrolly">Projetos</a>
-                </footer>
+                <div>
+                    <a href="#portfolio" class="button scrolly">projects</a>
+                </div>
 
             </div>
         </section>
@@ -74,18 +82,18 @@
                     <h2>Portfolio</h2>
                 </header>
 
-                <p class="info">Esses são alguns dos projetos que desenvolvi ao longo do tempo, espero que vocês gostem</p>
+                <p class="info">These are some of the projects I've developed over time, I hope you like them</p>
 
                 <div class="row">
                     <div class="4u">
                         <article class="item">
-                            <a href="#" class="image fit"><img src="images/pic02.jpg" alt="" /></a>
+                            <a href="https://github.com/Programador-jr/king" class="image fit"><img src="images/kingbot.jpg" alt="" /></a>
                             <header>
                                 <h3>King Bot</h3>
                             </header>
                         </article>
                         <article class="item">
-                            <a href="#" class="image fit"><img src="images/pic03.jpg" alt="" /></a>
+                            <a href="#" class="image fit"><img src="images/e-commerce.jpg" alt="" /></a>
                             <header>
                                 <h3>E-commerce</h3>
                             </header>
@@ -93,7 +101,7 @@
                     </div>
                     <div class="4u">
                         <article class="item">
-                            <a href="#" class="image fit"><img src="images/pic04.jpg" alt="" /></a>
+                            <a href="https://kings-coffee.vercel.app/" class="image fit"><img src="images/kings-coffee.jpg" alt="" /></a>
                             <header>
                                 <h3>King's Coffee</h3>
                             </header>
@@ -107,15 +115,15 @@
                     </div>
                     <div class="4u">
                         <article class="item">
-                            <a href="#" class="image fit"><img src="images/pic06.jpg" alt="" /></a>
+                            <a href="https://replit.com/@KingProgrammer/Advanced-Calculator" class="image fit"><img src="images/advancedcalculator.jpg" alt="" /></a>
                             <header>
-                                <h3>Calculadora avançada em Python</h3>
+                                <h3>Advanced Calculator in Python</h3>
                             </header>
                         </article>
                         <article class="item">
-                            <a href="#" class="image fit"><img src="images/pic07.jpg" alt="" /></a>
+                            <a href="https://calculadora-imc-nu.vercel.app/" class="image fit"><img src="images/imc.jpg" alt="" /></a>
                             <header>
-                                <h3>Calculadora de IMC</h3>
+                                <h3>BMI calculator</h3>
                             </header>
                         </article>
                     </div>
@@ -129,12 +137,12 @@
             <div class="container">
 
                 <header>
-                    <h2>Sobre mim</h2>
+                    <h2>About me</h2>
                 </header>
 
-                <a href="#" class="image featured"><img src="images/pic08.jpg" alt="" /></a>
+                <div id="bg"></div>
 
-                <p>Meu nome é Daniel e eu moro no Brasil, entrei no mundo da programação a 4 anos desde então venho me aprofundando ainda mais nesse mundo que eu particularmente acho incrível, estudo por meio de sites de aprendizagem gratuito, livros videos e entre outros, pretendo um dia me tornar um Full Stack, esse sonho ainda está um pouco longe de ser realizado mas um dia irei conseguir realizar.</p>
+                <p class="about_me">My name is Daniel Melo I live in Brazil and I am 20 years old, I entered the programming world in 2019, since then I have been delving even further into this world that I personally find amazing, I started as a hobby and nowadays I intend to continue in this area and become a full stack developer</p>
 
             </div>
         </section>
@@ -145,11 +153,456 @@
 
         <!-- Copyright -->
         <ul class="copyright">
-            <li>Copyright &copy; All rights reserved.</li>
+            <li>Copyright&copy; 2022</li>
             <li>Daniel Melo</li>
         </ul>
 
     </div>
+    <script type="text/javascript">
+    /*************************************/
+// Low-poly Background animations
 
-</body>
-</html>
+var refreshDuration = 10000;
+        var refreshTimeout;
+        var numPointsX;
+        var numPointsY;
+        var unitWidth;
+        var unitHeight;
+        var points;
+        
+        function onLoad()
+        {
+            var svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+            svg.setAttribute('width',window.outerWidth);
+            svg.setAttribute('height',window.outerHeight);
+            document.querySelector('#bg').appendChild(svg);
+        
+            var unitSize = (window.innerWidth+window.innerHeight)/15;
+            numPointsX = Math.ceil(window.innerWidth/unitSize)+1;
+            numPointsY = Math.ceil(window.innerHeight/unitSize)+1;
+            unitWidth = Math.ceil(window.innerWidth/(numPointsX-1));
+            unitHeight = Math.ceil(window.innerHeight/(numPointsY-1));
+        
+            points = [];
+        
+            for(var y = 0; y < numPointsY; y++) {
+                for(var x = 0; x < numPointsX; x++) {
+                    points.push({x:unitWidth*x, y:unitHeight*y, originX:unitWidth*x, originY:unitHeight*y});
+                }
+            }
+        
+            randomize();
+        
+            for(var i = 0; i < points.length; i++) {
+                if(points[i].originX != unitWidth*(numPointsX-1) && points[i].originY != unitHeight*(numPointsY-1)) {
+                    var topLeftX = points[i].x;
+                    var topLeftY = points[i].y;
+                    var topRightX = points[i+1].x;
+                    var topRightY = points[i+1].y;
+                    var bottomLeftX = points[i+numPointsX].x;
+                    var bottomLeftY = points[i+numPointsX].y;
+                    var bottomRightX = points[i+numPointsX+1].x;
+                    var bottomRightY = points[i+numPointsX+1].y;
+        
+                    var rando = Math.floor(Math.random()*2);
+        
+                    for(var n = 0; n < 2; n++) {
+                        var polygon = document.createElementNS(svg.namespaceURI, 'polygon');
+        
+                        if(rando==0) {
+                            if(n==0) {
+                                polygon.point1 = i;
+                                polygon.point2 = i+numPointsX;
+                                polygon.point3 = i+numPointsX+1;
+                                polygon.setAttribute('points',topLeftX+','+topLeftY+' '+bottomLeftX+','+bottomLeftY+' '+bottomRightX+','+bottomRightY);
+                            } else if(n==1) {
+                                polygon.point1 = i;
+                                polygon.point2 = i+1;
+                                polygon.point3 = i+numPointsX+1;
+                                polygon.setAttribute('points',topLeftX+','+topLeftY+' '+topRightX+','+topRightY+' '+bottomRightX+','+bottomRightY);
+                            }
+                        } else if(rando==1) {
+                            if(n==0) {
+                                polygon.point1 = i;
+                                polygon.point2 = i+numPointsX;
+                                polygon.point3 = i+1;
+                                polygon.setAttribute('points',topLeftX+','+topLeftY+' '+bottomLeftX+','+bottomLeftY+' '+topRightX+','+topRightY);
+                            } else if(n==1) {
+                                polygon.point1 = i+numPointsX;
+                                polygon.point2 = i+1;
+                                polygon.point3 = i+numPointsX+1;
+                                polygon.setAttribute('points',bottomLeftX+','+bottomLeftY+' '+topRightX+','+topRightY+' '+bottomRightX+','+bottomRightY);
+                            }
+                        }
+                        polygon.setAttribute('fill','rgba(0,0,0,'+(Math.random()/3)+')');
+                        var animate = document.createElementNS('http://www.w3.org/2000/svg','animate');
+                        animate.setAttribute('fill','freeze');
+                        animate.setAttribute('attributeName','points');
+                        animate.setAttribute('dur',refreshDuration+'ms');
+                        animate.setAttribute('calcMode','linear');
+                        polygon.appendChild(animate);
+                        svg.appendChild(polygon);
+                    }
+                }
+            }
+        
+            refresh();
+        
+        }
+        
+        function randomize() {
+            for(var i = 0; i < points.length; i++) {
+                if(points[i].originX != 0 && points[i].originX != unitWidth*(numPointsX-1)) {
+                    points[i].x = points[i].originX + Math.random()*unitWidth-unitWidth/2;
+                }
+                if(points[i].originY != 0 && points[i].originY != unitHeight*(numPointsY-1)) {
+                    points[i].y = points[i].originY + Math.random()*unitHeight-unitHeight/2;
+                }
+            }
+        }
+        
+        function refresh() {
+            randomize();
+            for(var i = 0; i < document.querySelector('#bg svg').childNodes.length; i++) {
+                var polygon = document.querySelector('#bg svg').childNodes[i];
+                var animate = polygon.childNodes[0];
+                if(animate.getAttribute('to')) {
+                    animate.setAttribute('from',animate.getAttribute('to'));
+                }
+                animate.setAttribute('to',points[polygon.point1].x+','+points[polygon.point1].y+' '+points[polygon.point2].x+','+points[polygon.point2].y+' '+points[polygon.point3].x+','+points[polygon.point3].y);
+                animate.beginElement();
+            }
+            refreshTimeout = setTimeout(function() {refresh();}, refreshDuration);
+        }
+        
+        function onResize() {
+            document.querySelector('#bg svg').remove();
+            clearTimeout(refreshTimeout);
+            onLoad();
+        }
+        
+        window.onload = onLoad;
+        window.onresize = onResize;
+        
+// End of Low-poly background animations
+
+    </script>    
+    
+    <script type="text/javascript">
+        /**
+ * Particle Network Animation
+ * Inspiration: https://github.com/JulianLaval/canvas-particle-network
+*/
+
+(function() {
+
+	var ParticleNetworkAnimation, PNA;
+	ParticleNetworkAnimation = PNA = function() {};
+
+	PNA.prototype.init = function(element) {
+		this.$el = $(element);
+
+		this.container = element;
+		this.canvas = document.createElement('canvas');
+		this.sizeCanvas();
+		this.container.appendChild(this.canvas);
+		this.ctx = this.canvas.getContext('2d');
+		this.particleNetwork = new ParticleNetwork(this);
+
+		this.bindUiActions();
+
+		return this;
+	};
+
+	PNA.prototype.bindUiActions = function() {
+		$(window).on('resize', function() {
+			// this.sizeContainer();
+			this.ctx.clearRect(0, 0, this.canvas.width, this.canvas.height);
+			this.sizeCanvas();
+			this.particleNetwork.createParticles();
+		}.bind(this));
+	};
+
+	PNA.prototype.sizeCanvas = function() {
+		this.canvas.width = this.container.offsetWidth;
+		this.canvas.height = this.container.offsetHeight;
+	};
+
+	var Particle = function(parent, x, y) {
+		this.network = parent;
+		this.canvas = parent.canvas;
+		this.ctx = parent.ctx;
+		this.particleColor = returnRandomArrayitem(this.network.options.particleColors);
+		this.radius = getLimitedRandom(1.5, 2.5);
+		this.opacity = 0;
+		this.x = x || Math.random() * this.canvas.width;
+		this.y = y || Math.random() * this.canvas.height;
+		this.velocity = {
+			x: (Math.random() - 0.5) * parent.options.velocity,
+			y: (Math.random() - 0.5) * parent.options.velocity
+		};
+	};
+
+	Particle.prototype.update = function() {
+		if (this.opacity < 1) {
+			this.opacity += 0.01;
+		} else {
+			this.opacity = 1;
+		}
+		// Change dir if outside map
+		if (this.x > this.canvas.width + 100 || this.x < -100) {
+			this.velocity.x = -this.velocity.x;
+		}
+		if (this.y > this.canvas.height + 100 || this.y < -100) {
+			this.velocity.y = -this.velocity.y;
+		}
+
+		// Update position
+		this.x += this.velocity.x;
+		this.y += this.velocity.y;
+	};
+
+	Particle.prototype.draw = function() {
+		// Draw particle
+		this.ctx.beginPath();
+		this.ctx.fillStyle = this.particleColor;
+		this.ctx.globalAlpha = this.opacity;
+		this.ctx.arc(this.x, this.y, this.radius, 0, 2 * Math.PI);
+		this.ctx.fill();
+	};
+
+	var ParticleNetwork = function(parent) {
+		this.options = {
+			velocity: 1, // the higher the faster
+			density: 10100, // the lower the denser
+			netLineDistance: 200,
+			netLineColor: ['#00bfff'],
+			particleColors: ['#00bfff', '#8600ff']
+		};
+		this.canvas = parent.canvas;
+		this.ctx = parent.ctx;
+
+		this.init();
+	};
+
+	ParticleNetwork.prototype.init = function() {
+		// Create particle objects
+		this.createParticles(true);
+
+		// Update canvas
+		this.animationFrame = requestAnimationFrame(this.update.bind(this));
+
+		this.bindUiActions();
+	};
+
+	ParticleNetwork.prototype.createParticles = function(isInitial) {
+		// Initialise / reset particles
+		var me = this;
+		this.particles = [];
+		var quantity = this.canvas.width * this.canvas.height / this.options.density;
+
+		if (isInitial) {
+			var counter = 0;
+			clearInterval(this.createIntervalId);
+			this.createIntervalId = setInterval(function() {
+				if (counter < quantity - 1) {
+					// Create particle object
+					this.particles.push(new Particle(this));
+				}
+				else {
+					clearInterval(me.createIntervalId);
+				}
+				counter++;
+			}.bind(this), 250);
+		}
+		else {
+			// Create particle objects
+			for (var i = 0; i < quantity; i++) {
+				this.particles.push(new Particle(this));
+			}
+		}
+	};
+
+	ParticleNetwork.prototype.createInteractionParticle = function() {
+		// Add interaction particle
+		this.interactionParticle = new Particle(this);
+		this.interactionParticle.velocity = {
+			x: 0,
+			y: 0
+		};
+		this.particles.push(this.interactionParticle);
+		return this.interactionParticle;
+	};
+
+	ParticleNetwork.prototype.removeInteractionParticle = function() {
+		// Find it
+		var index = this.particles.indexOf(this.interactionParticle);
+		if (index > -1) {
+			// Remove it
+			this.interactionParticle = undefined;
+			this.particles.splice(index, 1);
+		}
+	};
+
+	ParticleNetwork.prototype.update = function() {
+		if (this.canvas) {
+
+			this.ctx.clearRect(0, 0, this.canvas.width, this.canvas.height);
+			this.ctx.globalAlpha = 1;
+
+			// Draw connections
+			for (var i = 0; i < this.particles.length; i++) {
+				for (var j = this.particles.length - 1; j > i; j--) {
+					var distance, p1 = this.particles[i], p2 = this.particles[j];
+
+					// check very simply if the two points are even a candidate for further measurements
+					distance = Math.min(Math.abs(p1.x - p2.x), Math.abs(p1.y - p2.y));
+					if (distance > this.options.netLineDistance) {
+						continue;
+					}
+
+					// the two points seem close enough, now let's measure precisely
+					distance = Math.sqrt(
+						Math.pow(p1.x - p2.x, 2) +
+						Math.pow(p1.y - p2.y, 2)
+					);
+					if (distance > this.options.netLineDistance) {
+						continue;
+					}
+
+					this.ctx.beginPath();
+					this.ctx.strokeStyle = this.options.netLineColor;
+					this.ctx.globalAlpha = (this.options.netLineDistance - distance) / this.options.netLineDistance * p1.opacity * p2.opacity;
+					this.ctx.lineWidth = 0.7;
+					this.ctx.moveTo(p1.x, p1.y);
+					this.ctx.lineTo(p2.x, p2.y);
+					this.ctx.stroke();
+				}
+			}
+
+			// Draw particles
+			for (var i = 0; i < this.particles.length; i++) {
+				this.particles[i].update();
+				this.particles[i].draw();
+			}
+
+			if (this.options.velocity !== 0) {
+				this.animationFrame = requestAnimationFrame(this.update.bind(this));
+			}
+
+		}
+		else {
+			cancelAnimationFrame(this.animationFrame);
+		}
+	};
+
+	ParticleNetwork.prototype.bindUiActions = function() {
+		// Mouse / touch event handling
+		this.spawnQuantity = 3;
+		this.mouseIsDown = false;
+		this.touchIsMoving = false;
+
+		this.onMouseMove = function(e) {
+			if (!this.interactionParticle) {
+				this.createInteractionParticle();
+			}
+			this.interactionParticle.x = e.offsetX;
+			this.interactionParticle.y = e.offsetY;
+		}.bind(this);
+
+		this.onTouchMove = function(e) {
+			e.preventDefault();
+			this.touchIsMoving = true;
+			if (!this.interactionParticle) {
+				this.createInteractionParticle();
+			}
+			this.interactionParticle.x = e.changedTouches[0].clientX;
+			this.interactionParticle.y = e.changedTouches[0].clientY;
+		}.bind(this);
+
+		this.onMouseDown = function(e) {
+			this.mouseIsDown = true;
+			var counter = 0;
+			var quantity = this.spawnQuantity;
+			var intervalId = setInterval(function() {
+				if (this.mouseIsDown) {
+					if (counter === 1) {
+						quantity = 1;
+					}
+					for (var i = 0; i < quantity; i++) {
+						if (this.interactionParticle) {
+							this.particles.push(new Particle(this, this.interactionParticle.x, this.interactionParticle.y));
+						}
+					}
+				}
+				else {
+					clearInterval(intervalId);
+				}
+				counter++;
+			}.bind(this), 50);
+		}.bind(this);
+
+		this.onTouchStart = function(e) {
+			e.preventDefault();
+			setTimeout(function() {
+				if (!this.touchIsMoving) {
+					for (var i = 0; i < this.spawnQuantity; i++) {
+						this.particles.push(new Particle(this, e.changedTouches[0].clientX, e.changedTouches[0].clientY));
+					}
+				}
+			}.bind(this), 200);
+		}.bind(this);
+
+		this.onMouseUp = function(e) {
+			this.mouseIsDown = false;
+		}.bind(this);
+
+		this.onMouseOut = function(e) {
+			this.removeInteractionParticle();
+		}.bind(this);
+
+		this.onTouchEnd = function(e) {
+			e.preventDefault();
+			this.touchIsMoving = false;
+			this.removeInteractionParticle();
+		}.bind(this);
+
+		this.canvas.addEventListener('mousemove', this.onMouseMove);
+		this.canvas.addEventListener('touchmove', this.onTouchMove);
+		this.canvas.addEventListener('mousedown', this.onMouseDown);
+		this.canvas.addEventListener('touchstart', this.onTouchStart);
+		this.canvas.addEventListener('mouseup', this.onMouseUp);
+		this.canvas.addEventListener('mouseout', this.onMouseOut);
+		this.canvas.addEventListener('touchend', this.onTouchEnd);
+	};
+
+	ParticleNetwork.prototype.unbindUiActions = function() {
+		if (this.canvas) {
+			this.canvas.removeEventListener('mousemove', this.onMouseMove);
+			this.canvas.removeEventListener('touchmove', this.onTouchMove);
+			this.canvas.removeEventListener('mousedown', this.onMouseDown);
+			this.canvas.removeEventListener('touchstart', this.onTouchStart);
+			this.canvas.removeEventListener('mouseup', this.onMouseUp);
+			this.canvas.removeEventListener('mouseout', this.onMouseOut);
+			this.canvas.removeEventListener('touchend', this.onTouchEnd);
+		}
+	};
+
+	var getLimitedRandom = function(min, max, roundToInteger) {
+		var number = Math.random() * (max - min) + min;
+		if (roundToInteger) {
+			number = Math.round(number);
+		}
+		return number;
+	};
+
+	var returnRandomArrayitem = function(array) {
+		return array[Math.floor(Math.random()*array.length)];
+	};
+
+pna = new ParticleNetworkAnimation();	pna.init($('.particle-network-animation')[0]);
+
+}());
+
+    </script>
+</body></html>
