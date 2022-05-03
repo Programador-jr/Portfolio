@@ -8,23 +8,15 @@
     box-sizing: border-box;
 }
 
+::selection{
+	background: transparent;
+	color: #fff;
+}
+
 :root {
     --main-background: #070505;
     --ocean: #00BFFF;
     --purple: #8600ff;
-}
-
-body.is-loading * {
-    -moz-transition: none !important;
-    -webkit-transition: none !important;
-    -o-transition: none !important;
-    -ms-transition: none !important;
-    transition: none !important;
-    -moz-animation: none !important;
-    -webkit-animation: none !important;
-    -o-animation: none !important;
-    -ms-animation: none !important;
-    animation: none !important;
 }
 
 body,
@@ -48,6 +40,7 @@ h6 {
     color: var(--ocean);
     line-height: 1.5em;
     text-shadow: 0 0 0.1em var(--ocean);
+	
 }
 
 h1 a,
